@@ -1,0 +1,14 @@
+{
+  "name": "Agentic LinkedIn Outreach Automation",
+  "description": "Design-first n8n workflow demonstrating agentic job outreach automation.",
+  "nodes": [
+    { "name": "Job Description Trigger", "type": "Chat Trigger" },
+    { "name": "Boolean Search Generator", "type": "OpenAI" },
+    { "name": "Google Search", "type": "HTTP Request" },
+    { "name": "Profile Context Extractor", "type": "OpenAI" },
+    { "name": "Email Enrichment", "type": "Hunter.io" },
+    { "name": "Cold Email Generator", "type": "OpenAI" },
+    { "name": "Save to Google Sheets", "type": "Google Sheets" },
+    { "name": "Draft Gmail Email", "type": "Gmail" }
+  ]
+}
